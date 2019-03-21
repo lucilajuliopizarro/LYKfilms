@@ -1,4 +1,5 @@
 const getData2 = (condition) => {
+
   let dataBase = [];
       fetch (`https://api.themoviedb.org/3/discover/movie?api_key=13481584e80d11325605fbaf0b642876&with_genres=18&primary_release_year=2014`)// le damos la ruta que queremos seguir, si es una api publicada le damos la url que queremos que siga
       
@@ -30,4 +31,5 @@ const getData2 = (condition) => {
 
       
       window.onload=getData2();
+
 
