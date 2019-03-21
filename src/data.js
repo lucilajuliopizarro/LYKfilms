@@ -7,7 +7,7 @@ const getData2 = (condition) => {
       })
       .then(data =>{
          console.log(data)
-         for (let i=0; i<5; i++){
+         for (let i=0; i<4; i++){
           document.getElementById("root").innerHTML += `
           <div class="col-md-4 mt-4">
           <div class="card profile-card-5">
