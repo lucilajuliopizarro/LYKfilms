@@ -41,6 +41,7 @@ body{
 }
 .navbar{
     background: white;
+    background-color:transparent;
 }
 .navbar-brand{
     background: white;
@@ -51,8 +52,17 @@ body{
     color: #590e37;
 }
 .card{
-    height: 550px;
+    height: 500px;
     width: 260px;
+
+   
 }
+
+#root {
+margin-top: 4%;
+
+}
+
+
 
 
