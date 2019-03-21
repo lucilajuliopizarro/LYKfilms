@@ -1,7 +1,13 @@
-const getData2 = (condition) => {
 
-  let dataBase = [];
-      fetch (`https://api.themoviedb.org/3/discover/movie?api_key=13481584e80d11325605fbaf0b642876&with_genres=18&primary_release_year=2014`)// le damos la ruta que queremos seguir, si es una api publicada le damos la url que queremos que siga
+// let categorias = [18];
+// for (let i=0; i<categorias.length; i++){
+//   let condition = categorias[i];
+//       getData2(condition)
+//   }
+
+
+const getData2 = () => {
+      fetch (`https://api.themoviedb.org/3/discover/movie?api_key=13481584e80d11325605fbaf0b642876&with_genres=18&primary_release_date.gte=1900&primary_release_date.lte=1980`)// le damos la ruta que queremos seguir, si es una api publicada le damos la url que queremos que siga
       
       .then(Response => {   
           return Response.json()// va a leer los archivos json
@@ -17,6 +23,7 @@ const getData2 = (condition) => {
               </div>
               <div class="card-body pt-0">
               <h5 class="card-title">${data.results[i].title}</h5>
+              <h5 class="card-title">${data.results[i].release_date}</h5>
               <p>Mejor Ranking: ${data.results[i].vote_average}</p>
               <p>Popularidad : ${data.results[i].popularity}</p>
               <p class="card-text">${data.results[i].overview}</p>
@@ -30,6 +37,6 @@ const getData2 = (condition) => {
       }
 
       
-      window.onload=getData2();
+    window.onload=getData2();
 
 
