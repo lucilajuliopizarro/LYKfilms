@@ -1,9 +1,9 @@
-# Data Lovers
+# LYKfilms
 
 ## Índice
 
-* [Preámbulo](#preámbulo)
-* [Descripción](#resumen-del-proyecto)
+* [Hitoria del cine](#historia-del-cine)
+* [Definición del producto](#definicion-del-producto)
 * [Consideraciones generales](#consideraciones-generales)
 * [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
 * [Parte obligatoria](#parte-obligatoria)
@@ -15,77 +15,43 @@
 
 ***
 
-## Preámbulo
+## Historia del Cine
 
-Según un [estudio de IBM](https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?htmlfid=WRL12345USEN),
-el 90% de la data que existe hoy ha sido creada durante los últimos dos años.
-Cada día generamos 2.5 trillones de bytes de datos, una cifra sin precedentes.
+La historia del cine como espectáculo comenzó en París el 28 de diciembre de 1895.
+El cine clásico engloba las convenciones visuales, sonoras, genéricas e ideológicas que emanaron durante dicho periodo. Es un cine tradicional, constituido por un sistema de convenciones que constituyen la tradición cinematográfica. Emplea siempre los mismos recursos tradicionales, sin introducir elementos rupturistas, a diferencia del cine independiente (el cual se vuelve más individual).
 
-No obstante, los datos por sí mismos son de poca utilidad. Para que esas
-grandes cantidades de datos se conviertan en **información** fácil de leer para
-los usuarios, necesitamos entender y procesar estos datos. Una manera simple de
-hacerlo es creando _interfaces_ y _visualizaciones_.
-
-En la siguiente imagen, podrás ver cómo con la data que que se ve en la parte
-izquierda se puede construir una interfaz amigable y entendible por el usuario.
-
-![json-interfaz](https://lh4.googleusercontent.com/Tn-RPXS26pVvOTdUzRT1KVaJ-_QbFs9SpcGLxSPE43fgbHaXtFgMUInuDt7kV41DkT1j8Tt29V0LxQW7SMtC6digOIhfTXSBKdwI08wUwhD3RAqlwy0hjfmhZ2BFe91mtmCSEqysfgk)
-
-\* Puedes ver el datalle de la data en este [link](https://gist.github.com/lalogf/dd4aa3017a9f8aa8f90dfbca382c4dc9#file-student-json)
-y la interfaz construida en este [link](https://app.talento.laboratoria.la/profile/HFOoMpOreBU2psCcjjLg5O2EWEv2).
-
-## Resumen del proyecto
-
-En este proyecto **construirás una _página web_ para visualizar un
-_conjunto (set) de datos_** que se adecúe a lo que descubras que tu usuario
-necesita.
-
-Esta vez te proponemos una serie de datos de diferentes _temáticas_ para que
-explores y decidas con qué temática te interesa trabajar. Hemos elegido
-específicamente estos sets de datos porque creemos que se adecúan bien a esta
-etapa de tu aprendizaje.
-
-Una vez que definas tu área de interés, entiende quién es tu usuario y qué
-necesita saber o ver exactamente; luego podrás construir la interfaz que le
-ayude a interactuar y entender mejor esos datos.
-
-Estos son datos que te proponemos:
-
-* Indicadores de desarrollo del Banco Mundial de algunos países (Brasil, Chile, 
-  México y Perú). Estos datos incluyen indicadores demográficos, económicos y 
-  comerciales.
-* [Pokémon](src/data/pokemon/pokemon.json):
-  En este set encontrarás una lista con los 151 Pokémon de la región de Kanto,
-  junto con sus respectivas estadísticas usadas en el juego [Pokémon GO](https://pokemongolive.com).
-* [Steam noticias](src/data/steam/steam.json):
-  Lista noticias relacionadas a los videojuegos presentes en la
-  plataforma de [Steam](https://store.steampowered.com/).
-* [League of Legends - Challenger leaderboard](src/data/lol/lol.json):
-  Este set de datos muestra la lista de jugadores en una liga del
-  juego League of Legends (LoL), puedes revisar la documentación de su API en
-  este [link](https://developer.riotgames.com/api-methods/).
-* [Personas heridas por medio de transporte en EEUU](src/data/injuries/injuries.json).
-  Este set nos muestra el número de personas heridas en accidentes de
-  transporte, con data anual desde 1960 y categorizada por tipo de transporte
-  (aire, barco, automóvil, moto, bicileta, ...).
-
-Como entregable final tendrás una página web que permita **visualizar la data,
-filtrarla, ordenarla y hacer algún calculo agregado**. Como aclaración,
-con cálculo agregado nos referimos a distintos cálculos que puedes hacer con
-la data que tienes para mostrar información aún más relevante a los usuarios.
-Una opción serían cálculos estadísticos como el promedio, el máximo o el mínimo,
-por ejemplo, si tenemos una colección que representa a un grupo de personas,
-y cada persona está representada como un _objeto_ con una _propiedad_ `altura`,
-podríamos elegir calcular la altura promedio en el grupo entre otras cosas.
+Pocas cosas pueden producirnos más nostalgia que los grandes clásicos del cine antiguo. Que esas películas que hemos visto decenas de veces, de las que nos sabemos los diálogos de memoria y que siempre saben arrancarnos una sonrisa o algunas lágrimas. Hasta puede que exista alguna que no hayamos descubierto todavía, así que nos hemos propuesto recopilar películas del cine clásico. En LYKfilms tienes un catálogo donded encontras por género las películas clásicas más taquilleras y no te queden sin conocer un poco más de sus historias.
 
 
-## Consideraciones generales
+## LYKfilms
 
-* Este proyecto se debe resolver en duplas.
-* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
-  interfaz será desplegada usando [GitHub Pages](https://pages.github.com/).
-* Tiempo para completarlo: El proyecto dura 3 semanas, trabaja con sprints 
-y planificando tus tareas.
+Si usted realmente desea ser considerado como un auténtico amante del cine, decididamente tiene que entrar a LYKfilms en esta plataforma podrás encontrar una serie de películas que te llevaran al pasado, logrando enamorarte mása con cada historia reproducida por el cine. Cada una fue pionera e indicó el camino que seguirían los filmes del futuro, o asimiló las lecciones del pasado de forma impresionantemente innovadora.
+
+Es por ello que a ti que te apasiona el cine hemos creado LYKfilms donde encontrarás quizas títulos de películas que aun no hayas visto.
+
+## Proceso del Diseño 🎨
+
+LYKfilms esta diseñada pensando en los amantes del cine, a continuación conooce un poco más de la orientacion de esta plataforma:
+
+1. ¿Quiénes son los principales usuarios de producto?
+
+Amantes del cine clásico, cinéfilo y para todas las personas que nunca quieren olvidar las películas del pasado.
+
+2. ¿Cuáles son los objetivos de los usuarios de esta aplicación?
+
+Poder identificar por género, por año, o título sus películas clasicass favoritas. 
+
+3. ¿Que datos más relevantes se muestran en la interfaz?
+
+Las categorias u género de las peliculas y su imagen.
+
+4. ¿Cómo crees que el producto resuelve el problema que tiene tu usuario?
+
+Al lograr poder seleccionar las películas clásicas y de mayor ranking para el momento nuestros usuarios se siente sastisfecho al encontrar en LYKfilms lo que tanto deseaban.
+
+5. ¿Cuándo utilizan o utilizarían el producto?
+
+Antes de querer ver una película y no recuerde su nombre o titulo de la misma.
 
 ## Objetivos de aprendizaje
 
