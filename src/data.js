@@ -10,7 +10,7 @@ const getData2 = (condition) => {
          console.log(data)
          for (let i=0; i<4; i++){
           document.getElementById("root").innerHTML += `
-          <div class="col-md-4 mt-4">
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6">
           <div class="card profile-card-5">
               <div class="card-img-block">
                   <img class="card-img-top" src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/${data.results[i].poster_path}" alt="Card image cap">

@@ -8,14 +8,14 @@
     padding:7px 20px;
 }
 .profile-card-5 .card-img-block {
-    width: 91%;
+    width: 65%;
     margin: 0 auto;
     position: relative;
     top: -20px;
     
 }
 .profile-card-5 .card-img-block img{
-    border-radius:5px;
+    border-radius:2px;
     box-shadow:0 0 10px rgba(0,0,0,0.63);
 }
 .profile-card-5 h5{
@@ -23,7 +23,7 @@
     font-weight:600;
 }
 .profile-card-5 p{
-    font-size:14px;
+    font-size:9px;
     font-weight:300;
 }
 .profile-card-5 .btn-primary{
@@ -36,8 +36,23 @@
     justify-content: space-evenly;
 }
 body{
-    background: purple;
+    background: #590e37;
+    
 }
 .navbar{
     background: white;
 }
+.navbar-brand{
+    background: white;
+    color:#590e37;
+}
+
+.navbarTogglerDemo01{
+    color: #590e37;
+}
+.card{
+    height: 550px;
+    width: 260px;
+    margin-left: 2%;
+}
+
