@@ -30,3 +30,11 @@
     background-color:#4E5E30;
     border-color:#4E5E30;
 }
+.container{
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+body{
+    background: purple;
+}

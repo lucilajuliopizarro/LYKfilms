@@ -20,7 +20,20 @@ const categFiccion =()=>{
             getData(condition)
     }
     }
-
+    const categDrama =()=>{
+        let arrComedy = ['0031381','0120338','0118799']
+        for (let i=0; i<arrComedy.length; i++){
+        let condition = arrComedy[i];
+            getData(condition)
+    }
+    }
+    const categAccion =()=>{
+        let arrComedy = ['0083944','4912910','0816711']
+        for (let i=0; i<arrComedy.length; i++){
+        let condition = arrComedy[i];
+            getData(condition)
+    }
+    }
 const getData = (condition) => {
 let dataBase = [];
     fetch (`http://www.omdbapi.com/?i=tt${condition}&apikey=9d065953`)// le damos la ruta que queremos seguir, si es una api publicada le damos la url que queremos que siga
@@ -43,7 +56,7 @@ let dataBase = [];
             <a href="https://www.imdb.com/title/${data.imdbID}" class="btn btn-primary">imdbID Oficial</a>
           </div>
         </div>
-        <p class="mt-3 w-100 float-left text-center"><strong>Card with Floting Picture</strong></p>
+        <p class="mt-3 w-100 float-left text-center"></p>
     </div>`
 //         <div class="card" style="width: 13rem;">
 //   <img src="${data.Poster}" class="card-img-top" alt="...">
