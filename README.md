@@ -177,10 +177,13 @@ El prototipo de Alta fidelidad se elaboró con [Figma](https://figma.com) el cua
 
 #### Testeos de usabilidad
 
-Durante el reto deberás realizar tests de usabilidad con distintos usuarios, y
-en base a los resultados de esos tests, deberás iterar tus diseños. Cuéntanos
-qué problemas de usabilidad detectaste a través de los tests y cómo los
-mejoraste en tu propuesta final.
+Se realizaron testeos a usuarios con el prototipo de alta fidelidad para poder analizar si es necesario aplicar algún cambio y mejora en la app. Puedes verlo aquí:
+
+Usuarios:
+* [Miroslava](https://www.useloom.com/share/f8e0884fbf444f16ac3cc51ea7d2ac0b)
+* [Maria Eugenia](https://www.useloom.com/share/625b5f69cc014609a422651f72376269) 
+* [Jesus](https://www.useloom.com/share/540a7015484a4af9b676185d19f302cc)
+
 
 ## Checklist
 
