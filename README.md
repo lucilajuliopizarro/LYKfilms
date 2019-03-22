@@ -1,8 +1,9 @@
 # LYKfilms
+![LYKfilms](./src/images/logo.jpg "LYKfilms")
 
 ## Índice
 
-* [Hitoria del cine](#historia-del-cine)
+* [Historia del cine](#historia-del-cine)
 * [LYKfilms](#lykfilms)
 * [Procesos del Diseño](#proceso-del-diseño)
 * [Planificación del Proyecto](#planinficación-del-proyecto)
